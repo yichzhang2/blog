@@ -23,6 +23,8 @@ permalinks:
     page: /:slug/
 
 params:
+    assets:
+        disableFingerprinting: true
     mainSections:
         - post
     featuredImageField: image
