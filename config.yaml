@@ -12,7 +12,7 @@ googleAnalytics:
 
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn, zh-tw, es, de, nl, it, th, el, uk
-DefaultContentLanguage: en
+DefaultContentLanguage: zh-cn
 
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
 # This will make .Summary and .WordCount behave correctly for CJK languages.
@@ -41,22 +41,22 @@ params:
 
     sidebar:
         emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        subtitle: 生活即思考
         avatar:
             enabled: true
             local: true
-            src: img/avatar.png
+            src: img/avatar.jpg
 
     article:
         math: false
         toc: true
         readingTime: true
         license:
-            enabled: true
+            enabled: false
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
-        enabled: true
+        enabled: false
         provider: disqus
 
         disqusjs:
@@ -170,29 +170,29 @@ params:
 ### Custom menu
 ### See https://docs.stack.jimmycai.com/configuration/custom-menu.html
 ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
-menu:
-    main:
-        - identifier: home
-          name: Home
-          url: /
-          weight: -100
-          params:
-              ### For demonstration purpose, the home link will be open in a new tab
-              newTab: true
-              icon: home
+#menu:
+#    main:
+#        - identifier: home
+#          name: Home
+#          url: /
+#          weight: -100
+#          params:
+#              ### For demonstration purpose, the home link will be open in a new tab
+#              newTab: true
+#              icon: home
     
-    social:
-        - identifier: github
-          name: GitHub
-          url: https://github.com/CaiJimmy/hugo-theme-stack
-          params:
-            icon: brand-github
+#    social:
+#        - identifier: github
+#          name: GitHub
+#          url: https://github.com/CaiJimmy/hugo-theme-stack
+#          params:
+#            icon: brand-github
             
-        - identifier: twitter
-          name: Twitter
-          url: https://twitter.com
-          params:
-            icon: brand-twitter
+#        - identifier: twitter
+#          name: Twitter
+#          url: https://twitter.com
+#          params:
+#            icon: brand-twitter
 
 related:
     includeNewer: true
