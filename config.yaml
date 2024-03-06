@@ -40,7 +40,7 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 🍥
+#        emoji: 🍥
         subtitle: 生活即思考
         avatar:
             enabled: true
@@ -48,7 +48,7 @@ params:
             src: img/avatar.jpg
 
     article:
-        math: false
+        math: true
         toc: true
         readingTime: true
         license:
@@ -172,15 +172,23 @@ params:
 ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
 #menu:
 #    main:
-#        - identifier: home
-#          name: Home
-#          url: /
-#          weight: -100
-#          params:
-#              ### For demonstration purpose, the home link will be open in a new tab
-#              newTab: true
-#              icon: home
+#       - identifier: home
+#         name: Home
+#         url: /
+#         weight: -100
+#         params:
+        ### For demonstration purpose, the home link will be open in a new tab
+#            newTab: true
+#            icon: home
     
+#       - identifier: archives
+#         name: Archives
+#         url: /Archives
+#         weight: -100
+#         params:
+        ### For demonstration purpose, the home link will be open in a new tab
+#            newTab: true
+#            icon: archives
 #    social:
 #        - identifier: github
 #          name: GitHub
@@ -216,3 +224,4 @@ markup:
         startLevel: 2
     highlight:
         noClasses: false
+        #            icon: archives
